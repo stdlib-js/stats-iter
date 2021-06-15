@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-iter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Standard library functions for computing statistics over iterators.",
   "license": "Apache-2.0",
   "author": {
