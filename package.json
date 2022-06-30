@@ -83,7 +83,6 @@
   },
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.0.x",
-    "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/assert-is-function": "^0.0.x",
     "@stdlib/assert-is-iterator-like": "^0.0.x",
     "@stdlib/assert-is-number": "^0.0.x",
