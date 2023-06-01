@@ -124,7 +124,7 @@
     "@stdlib/stats-incr-sumabs": "^0.0.6",
     "@stdlib/stats-incr-sumabs2": "^0.0.7",
     "@stdlib/stats-incr-variance": "^0.0.7",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/symbol-iterator": "^0.0.7",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7",
     "@stdlib/utils-keys": "^0.0.7",
