@@ -36,7 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/stats-iter-cugmean": "^0.0.6",
+    "@stdlib/stats-iter-cugmean": "^0.1.0",
     "@stdlib/stats-iter-cuhmean": "^0.1.0",
     "@stdlib/stats-iter-cumax": "^0.1.0",
     "@stdlib/stats-iter-cumaxabs": "^0.1.0",
@@ -82,7 +82,7 @@
     "@stdlib/utils-define-read-only-property": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-to-iterator": "^0.0.6",
+    "@stdlib/array-to-iterator": "^0.1.0",
     "@stdlib/assert-is-function": "^0.1.0",
     "@stdlib/assert-is-iterator-like": "^0.1.0",
     "@stdlib/assert-is-number": "^0.1.0",
@@ -92,8 +92,8 @@
     "@stdlib/iter-empty": "^0.1.0",
     "@stdlib/math-base-assert-is-nan": "^0.1.0",
     "@stdlib/math-base-special-abs": "^0.1.0",
-    "@stdlib/random-iter-randu": "^0.0.6",
-    "@stdlib/random-iter-uniform": "^0.0.6",
+    "@stdlib/random-iter-randu": "^0.1.0",
+    "@stdlib/random-iter-uniform": "^0.1.0",
     "@stdlib/stats-incr-gmean": "^0.1.0",
     "@stdlib/stats-incr-hmean": "^0.1.0",
     "@stdlib/stats-incr-max": "^0.1.0",
