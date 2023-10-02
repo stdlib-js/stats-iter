@@ -35,43 +35,30 @@ limitations under the License.
 
 > Statistical function iterators.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-iter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-iter/tags). For example,
-
-```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/stats-iter/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/stats-iter' );
 ```
 
 #### ns
@@ -147,21 +134,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var getKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/stats-iter' );
 
 console.log( getKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -215,8 +192,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-iter.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-iter
 
-[test-image]: https://github.com/stdlib-js/stats-iter/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/stats-iter/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/stats-iter/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-iter/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-iter/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-iter?branch=main
@@ -247,91 +224,91 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/iter/cugmean]: https://github.com/stdlib-js/stats-iter-cugmean/tree/umd
+[@stdlib/stats/iter/cugmean]: https://github.com/stdlib-js/stats-iter-cugmean
 
-[@stdlib/stats/iter/cuhmean]: https://github.com/stdlib-js/stats-iter-cuhmean/tree/umd
+[@stdlib/stats/iter/cuhmean]: https://github.com/stdlib-js/stats-iter-cuhmean
 
-[@stdlib/stats/iter/cumax]: https://github.com/stdlib-js/stats-iter-cumax/tree/umd
+[@stdlib/stats/iter/cumax]: https://github.com/stdlib-js/stats-iter-cumax
 
-[@stdlib/stats/iter/cumaxabs]: https://github.com/stdlib-js/stats-iter-cumaxabs/tree/umd
+[@stdlib/stats/iter/cumaxabs]: https://github.com/stdlib-js/stats-iter-cumaxabs
 
-[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats-iter-cumean/tree/umd
+[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats-iter-cumean
 
-[@stdlib/stats/iter/cumeanabs]: https://github.com/stdlib-js/stats-iter-cumeanabs/tree/umd
+[@stdlib/stats/iter/cumeanabs]: https://github.com/stdlib-js/stats-iter-cumeanabs
 
-[@stdlib/stats/iter/cumeanabs2]: https://github.com/stdlib-js/stats-iter-cumeanabs2/tree/umd
+[@stdlib/stats/iter/cumeanabs2]: https://github.com/stdlib-js/stats-iter-cumeanabs2
 
-[@stdlib/stats/iter/cumidrange]: https://github.com/stdlib-js/stats-iter-cumidrange/tree/umd
+[@stdlib/stats/iter/cumidrange]: https://github.com/stdlib-js/stats-iter-cumidrange
 
-[@stdlib/stats/iter/cumin]: https://github.com/stdlib-js/stats-iter-cumin/tree/umd
+[@stdlib/stats/iter/cumin]: https://github.com/stdlib-js/stats-iter-cumin
 
-[@stdlib/stats/iter/cuminabs]: https://github.com/stdlib-js/stats-iter-cuminabs/tree/umd
+[@stdlib/stats/iter/cuminabs]: https://github.com/stdlib-js/stats-iter-cuminabs
 
-[@stdlib/stats/iter/cuprod]: https://github.com/stdlib-js/stats-iter-cuprod/tree/umd
+[@stdlib/stats/iter/cuprod]: https://github.com/stdlib-js/stats-iter-cuprod
 
-[@stdlib/stats/iter/curange]: https://github.com/stdlib-js/stats-iter-curange/tree/umd
+[@stdlib/stats/iter/curange]: https://github.com/stdlib-js/stats-iter-curange
 
-[@stdlib/stats/iter/cusum]: https://github.com/stdlib-js/stats-iter-cusum/tree/umd
+[@stdlib/stats/iter/cusum]: https://github.com/stdlib-js/stats-iter-cusum
 
-[@stdlib/stats/iter/cusumabs]: https://github.com/stdlib-js/stats-iter-cusumabs/tree/umd
+[@stdlib/stats/iter/cusumabs]: https://github.com/stdlib-js/stats-iter-cusumabs
 
-[@stdlib/stats/iter/cusumabs2]: https://github.com/stdlib-js/stats-iter-cusumabs2/tree/umd
+[@stdlib/stats/iter/cusumabs2]: https://github.com/stdlib-js/stats-iter-cusumabs2
 
-[@stdlib/stats/iter/max]: https://github.com/stdlib-js/stats-iter-max/tree/umd
+[@stdlib/stats/iter/max]: https://github.com/stdlib-js/stats-iter-max
 
-[@stdlib/stats/iter/maxabs]: https://github.com/stdlib-js/stats-iter-maxabs/tree/umd
+[@stdlib/stats/iter/maxabs]: https://github.com/stdlib-js/stats-iter-maxabs
 
-[@stdlib/stats/iter/mean]: https://github.com/stdlib-js/stats-iter-mean/tree/umd
+[@stdlib/stats/iter/mean]: https://github.com/stdlib-js/stats-iter-mean
 
-[@stdlib/stats/iter/meanabs]: https://github.com/stdlib-js/stats-iter-meanabs/tree/umd
+[@stdlib/stats/iter/meanabs]: https://github.com/stdlib-js/stats-iter-meanabs
 
-[@stdlib/stats/iter/meanabs2]: https://github.com/stdlib-js/stats-iter-meanabs2/tree/umd
+[@stdlib/stats/iter/meanabs2]: https://github.com/stdlib-js/stats-iter-meanabs2
 
-[@stdlib/stats/iter/midrange]: https://github.com/stdlib-js/stats-iter-midrange/tree/umd
+[@stdlib/stats/iter/midrange]: https://github.com/stdlib-js/stats-iter-midrange
 
-[@stdlib/stats/iter/min]: https://github.com/stdlib-js/stats-iter-min/tree/umd
+[@stdlib/stats/iter/min]: https://github.com/stdlib-js/stats-iter-min
 
-[@stdlib/stats/iter/minabs]: https://github.com/stdlib-js/stats-iter-minabs/tree/umd
+[@stdlib/stats/iter/minabs]: https://github.com/stdlib-js/stats-iter-minabs
 
-[@stdlib/stats/iter/mmax]: https://github.com/stdlib-js/stats-iter-mmax/tree/umd
+[@stdlib/stats/iter/mmax]: https://github.com/stdlib-js/stats-iter-mmax
 
-[@stdlib/stats/iter/mmaxabs]: https://github.com/stdlib-js/stats-iter-mmaxabs/tree/umd
+[@stdlib/stats/iter/mmaxabs]: https://github.com/stdlib-js/stats-iter-mmaxabs
 
-[@stdlib/stats/iter/mmean]: https://github.com/stdlib-js/stats-iter-mmean/tree/umd
+[@stdlib/stats/iter/mmean]: https://github.com/stdlib-js/stats-iter-mmean
 
-[@stdlib/stats/iter/mmeanabs]: https://github.com/stdlib-js/stats-iter-mmeanabs/tree/umd
+[@stdlib/stats/iter/mmeanabs]: https://github.com/stdlib-js/stats-iter-mmeanabs
 
-[@stdlib/stats/iter/mmeanabs2]: https://github.com/stdlib-js/stats-iter-mmeanabs2/tree/umd
+[@stdlib/stats/iter/mmeanabs2]: https://github.com/stdlib-js/stats-iter-mmeanabs2
 
-[@stdlib/stats/iter/mmidrange]: https://github.com/stdlib-js/stats-iter-mmidrange/tree/umd
+[@stdlib/stats/iter/mmidrange]: https://github.com/stdlib-js/stats-iter-mmidrange
 
-[@stdlib/stats/iter/mmin]: https://github.com/stdlib-js/stats-iter-mmin/tree/umd
+[@stdlib/stats/iter/mmin]: https://github.com/stdlib-js/stats-iter-mmin
 
-[@stdlib/stats/iter/mminabs]: https://github.com/stdlib-js/stats-iter-mminabs/tree/umd
+[@stdlib/stats/iter/mminabs]: https://github.com/stdlib-js/stats-iter-mminabs
 
-[@stdlib/stats/iter/mprod]: https://github.com/stdlib-js/stats-iter-mprod/tree/umd
+[@stdlib/stats/iter/mprod]: https://github.com/stdlib-js/stats-iter-mprod
 
-[@stdlib/stats/iter/mrange]: https://github.com/stdlib-js/stats-iter-mrange/tree/umd
+[@stdlib/stats/iter/mrange]: https://github.com/stdlib-js/stats-iter-mrange
 
-[@stdlib/stats/iter/msum]: https://github.com/stdlib-js/stats-iter-msum/tree/umd
+[@stdlib/stats/iter/msum]: https://github.com/stdlib-js/stats-iter-msum
 
-[@stdlib/stats/iter/msumabs]: https://github.com/stdlib-js/stats-iter-msumabs/tree/umd
+[@stdlib/stats/iter/msumabs]: https://github.com/stdlib-js/stats-iter-msumabs
 
-[@stdlib/stats/iter/msumabs2]: https://github.com/stdlib-js/stats-iter-msumabs2/tree/umd
+[@stdlib/stats/iter/msumabs2]: https://github.com/stdlib-js/stats-iter-msumabs2
 
-[@stdlib/stats/iter/prod]: https://github.com/stdlib-js/stats-iter-prod/tree/umd
+[@stdlib/stats/iter/prod]: https://github.com/stdlib-js/stats-iter-prod
 
-[@stdlib/stats/iter/range]: https://github.com/stdlib-js/stats-iter-range/tree/umd
+[@stdlib/stats/iter/range]: https://github.com/stdlib-js/stats-iter-range
 
-[@stdlib/stats/iter/stdev]: https://github.com/stdlib-js/stats-iter-stdev/tree/umd
+[@stdlib/stats/iter/stdev]: https://github.com/stdlib-js/stats-iter-stdev
 
-[@stdlib/stats/iter/sum]: https://github.com/stdlib-js/stats-iter-sum/tree/umd
+[@stdlib/stats/iter/sum]: https://github.com/stdlib-js/stats-iter-sum
 
-[@stdlib/stats/iter/sumabs]: https://github.com/stdlib-js/stats-iter-sumabs/tree/umd
+[@stdlib/stats/iter/sumabs]: https://github.com/stdlib-js/stats-iter-sumabs
 
-[@stdlib/stats/iter/sumabs2]: https://github.com/stdlib-js/stats-iter-sumabs2/tree/umd
+[@stdlib/stats/iter/sumabs2]: https://github.com/stdlib-js/stats-iter-sumabs2
 
-[@stdlib/stats/iter/variance]: https://github.com/stdlib-js/stats-iter-variance/tree/umd
+[@stdlib/stats/iter/variance]: https://github.com/stdlib-js/stats-iter-variance
 
 <!-- </toc-links> -->
 
