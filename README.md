@@ -35,20 +35,30 @@ limitations under the License.
 
 > Statistical function iterators.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-iter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { itercugmean, itercuhmean, itercumax, itercumaxabs, itercumean, itercumeanabs, itercumeanabs2, itercumidrange, itercumin, itercuminabs, itercuprod, itercurange, itercusum, itercusumabs, itercusumabs2, itermax, itermaxabs, itermean, itermeanabs, itermeanabs2, itermidrange, itermin, iterminabs, itermmax, itermmaxabs, itermmean, itermmeanabs, itermmeanabs2, itermmidrange, itermmin, itermminabs, itermprod, itermrange, itermsum, itermsumabs, itermsumabs2, iterprod, iterrange, iterstdev, itersum, itersumabs, itersumabs2, itervariance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@esm/index.mjs';
+var ns = require( '@stdlib/stats-iter' );
 ```
 
 #### ns
@@ -124,20 +134,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@esm/index.mjs';
+```javascript
+var getKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/stats-iter' );
 
 console.log( getKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -161,7 +162,7 @@ console.log( getKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -178,7 +179,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -223,91 +224,91 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/iter/cugmean]: https://github.com/stdlib-js/stats-iter-cugmean/tree/esm
+[@stdlib/stats/iter/cugmean]: https://github.com/stdlib-js/stats-iter-cugmean
 
-[@stdlib/stats/iter/cuhmean]: https://github.com/stdlib-js/stats-iter-cuhmean/tree/esm
+[@stdlib/stats/iter/cuhmean]: https://github.com/stdlib-js/stats-iter-cuhmean
 
-[@stdlib/stats/iter/cumax]: https://github.com/stdlib-js/stats-iter-cumax/tree/esm
+[@stdlib/stats/iter/cumax]: https://github.com/stdlib-js/stats-iter-cumax
 
-[@stdlib/stats/iter/cumaxabs]: https://github.com/stdlib-js/stats-iter-cumaxabs/tree/esm
+[@stdlib/stats/iter/cumaxabs]: https://github.com/stdlib-js/stats-iter-cumaxabs
 
-[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats-iter-cumean/tree/esm
+[@stdlib/stats/iter/cumean]: https://github.com/stdlib-js/stats-iter-cumean
 
-[@stdlib/stats/iter/cumeanabs]: https://github.com/stdlib-js/stats-iter-cumeanabs/tree/esm
+[@stdlib/stats/iter/cumeanabs]: https://github.com/stdlib-js/stats-iter-cumeanabs
 
-[@stdlib/stats/iter/cumeanabs2]: https://github.com/stdlib-js/stats-iter-cumeanabs2/tree/esm
+[@stdlib/stats/iter/cumeanabs2]: https://github.com/stdlib-js/stats-iter-cumeanabs2
 
-[@stdlib/stats/iter/cumidrange]: https://github.com/stdlib-js/stats-iter-cumidrange/tree/esm
+[@stdlib/stats/iter/cumidrange]: https://github.com/stdlib-js/stats-iter-cumidrange
 
-[@stdlib/stats/iter/cumin]: https://github.com/stdlib-js/stats-iter-cumin/tree/esm
+[@stdlib/stats/iter/cumin]: https://github.com/stdlib-js/stats-iter-cumin
 
-[@stdlib/stats/iter/cuminabs]: https://github.com/stdlib-js/stats-iter-cuminabs/tree/esm
+[@stdlib/stats/iter/cuminabs]: https://github.com/stdlib-js/stats-iter-cuminabs
 
-[@stdlib/stats/iter/cuprod]: https://github.com/stdlib-js/stats-iter-cuprod/tree/esm
+[@stdlib/stats/iter/cuprod]: https://github.com/stdlib-js/stats-iter-cuprod
 
-[@stdlib/stats/iter/curange]: https://github.com/stdlib-js/stats-iter-curange/tree/esm
+[@stdlib/stats/iter/curange]: https://github.com/stdlib-js/stats-iter-curange
 
-[@stdlib/stats/iter/cusum]: https://github.com/stdlib-js/stats-iter-cusum/tree/esm
+[@stdlib/stats/iter/cusum]: https://github.com/stdlib-js/stats-iter-cusum
 
-[@stdlib/stats/iter/cusumabs]: https://github.com/stdlib-js/stats-iter-cusumabs/tree/esm
+[@stdlib/stats/iter/cusumabs]: https://github.com/stdlib-js/stats-iter-cusumabs
 
-[@stdlib/stats/iter/cusumabs2]: https://github.com/stdlib-js/stats-iter-cusumabs2/tree/esm
+[@stdlib/stats/iter/cusumabs2]: https://github.com/stdlib-js/stats-iter-cusumabs2
 
-[@stdlib/stats/iter/max]: https://github.com/stdlib-js/stats-iter-max/tree/esm
+[@stdlib/stats/iter/max]: https://github.com/stdlib-js/stats-iter-max
 
-[@stdlib/stats/iter/maxabs]: https://github.com/stdlib-js/stats-iter-maxabs/tree/esm
+[@stdlib/stats/iter/maxabs]: https://github.com/stdlib-js/stats-iter-maxabs
 
-[@stdlib/stats/iter/mean]: https://github.com/stdlib-js/stats-iter-mean/tree/esm
+[@stdlib/stats/iter/mean]: https://github.com/stdlib-js/stats-iter-mean
 
-[@stdlib/stats/iter/meanabs]: https://github.com/stdlib-js/stats-iter-meanabs/tree/esm
+[@stdlib/stats/iter/meanabs]: https://github.com/stdlib-js/stats-iter-meanabs
 
-[@stdlib/stats/iter/meanabs2]: https://github.com/stdlib-js/stats-iter-meanabs2/tree/esm
+[@stdlib/stats/iter/meanabs2]: https://github.com/stdlib-js/stats-iter-meanabs2
 
-[@stdlib/stats/iter/midrange]: https://github.com/stdlib-js/stats-iter-midrange/tree/esm
+[@stdlib/stats/iter/midrange]: https://github.com/stdlib-js/stats-iter-midrange
 
-[@stdlib/stats/iter/min]: https://github.com/stdlib-js/stats-iter-min/tree/esm
+[@stdlib/stats/iter/min]: https://github.com/stdlib-js/stats-iter-min
 
-[@stdlib/stats/iter/minabs]: https://github.com/stdlib-js/stats-iter-minabs/tree/esm
+[@stdlib/stats/iter/minabs]: https://github.com/stdlib-js/stats-iter-minabs
 
-[@stdlib/stats/iter/mmax]: https://github.com/stdlib-js/stats-iter-mmax/tree/esm
+[@stdlib/stats/iter/mmax]: https://github.com/stdlib-js/stats-iter-mmax
 
-[@stdlib/stats/iter/mmaxabs]: https://github.com/stdlib-js/stats-iter-mmaxabs/tree/esm
+[@stdlib/stats/iter/mmaxabs]: https://github.com/stdlib-js/stats-iter-mmaxabs
 
-[@stdlib/stats/iter/mmean]: https://github.com/stdlib-js/stats-iter-mmean/tree/esm
+[@stdlib/stats/iter/mmean]: https://github.com/stdlib-js/stats-iter-mmean
 
-[@stdlib/stats/iter/mmeanabs]: https://github.com/stdlib-js/stats-iter-mmeanabs/tree/esm
+[@stdlib/stats/iter/mmeanabs]: https://github.com/stdlib-js/stats-iter-mmeanabs
 
-[@stdlib/stats/iter/mmeanabs2]: https://github.com/stdlib-js/stats-iter-mmeanabs2/tree/esm
+[@stdlib/stats/iter/mmeanabs2]: https://github.com/stdlib-js/stats-iter-mmeanabs2
 
-[@stdlib/stats/iter/mmidrange]: https://github.com/stdlib-js/stats-iter-mmidrange/tree/esm
+[@stdlib/stats/iter/mmidrange]: https://github.com/stdlib-js/stats-iter-mmidrange
 
-[@stdlib/stats/iter/mmin]: https://github.com/stdlib-js/stats-iter-mmin/tree/esm
+[@stdlib/stats/iter/mmin]: https://github.com/stdlib-js/stats-iter-mmin
 
-[@stdlib/stats/iter/mminabs]: https://github.com/stdlib-js/stats-iter-mminabs/tree/esm
+[@stdlib/stats/iter/mminabs]: https://github.com/stdlib-js/stats-iter-mminabs
 
-[@stdlib/stats/iter/mprod]: https://github.com/stdlib-js/stats-iter-mprod/tree/esm
+[@stdlib/stats/iter/mprod]: https://github.com/stdlib-js/stats-iter-mprod
 
-[@stdlib/stats/iter/mrange]: https://github.com/stdlib-js/stats-iter-mrange/tree/esm
+[@stdlib/stats/iter/mrange]: https://github.com/stdlib-js/stats-iter-mrange
 
-[@stdlib/stats/iter/msum]: https://github.com/stdlib-js/stats-iter-msum/tree/esm
+[@stdlib/stats/iter/msum]: https://github.com/stdlib-js/stats-iter-msum
 
-[@stdlib/stats/iter/msumabs]: https://github.com/stdlib-js/stats-iter-msumabs/tree/esm
+[@stdlib/stats/iter/msumabs]: https://github.com/stdlib-js/stats-iter-msumabs
 
-[@stdlib/stats/iter/msumabs2]: https://github.com/stdlib-js/stats-iter-msumabs2/tree/esm
+[@stdlib/stats/iter/msumabs2]: https://github.com/stdlib-js/stats-iter-msumabs2
 
-[@stdlib/stats/iter/prod]: https://github.com/stdlib-js/stats-iter-prod/tree/esm
+[@stdlib/stats/iter/prod]: https://github.com/stdlib-js/stats-iter-prod
 
-[@stdlib/stats/iter/range]: https://github.com/stdlib-js/stats-iter-range/tree/esm
+[@stdlib/stats/iter/range]: https://github.com/stdlib-js/stats-iter-range
 
-[@stdlib/stats/iter/stdev]: https://github.com/stdlib-js/stats-iter-stdev/tree/esm
+[@stdlib/stats/iter/stdev]: https://github.com/stdlib-js/stats-iter-stdev
 
-[@stdlib/stats/iter/sum]: https://github.com/stdlib-js/stats-iter-sum/tree/esm
+[@stdlib/stats/iter/sum]: https://github.com/stdlib-js/stats-iter-sum
 
-[@stdlib/stats/iter/sumabs]: https://github.com/stdlib-js/stats-iter-sumabs/tree/esm
+[@stdlib/stats/iter/sumabs]: https://github.com/stdlib-js/stats-iter-sumabs
 
-[@stdlib/stats/iter/sumabs2]: https://github.com/stdlib-js/stats-iter-sumabs2/tree/esm
+[@stdlib/stats/iter/sumabs2]: https://github.com/stdlib-js/stats-iter-sumabs2
 
-[@stdlib/stats/iter/variance]: https://github.com/stdlib-js/stats-iter-variance/tree/esm
+[@stdlib/stats/iter/variance]: https://github.com/stdlib-js/stats-iter-variance
 
 <!-- </toc-links> -->
 
