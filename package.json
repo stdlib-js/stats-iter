@@ -36,7 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/stats-iter-cugmean": "^0.2.1",
+    "@stdlib/stats-iter-cugmean": "^0.2.2",
     "@stdlib/stats-iter-cuhmean": "^0.2.2",
     "@stdlib/stats-iter-cumax": "^0.2.2",
     "@stdlib/stats-iter-cumaxabs": "^0.2.2",
@@ -82,7 +82,7 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-to-iterator": "^0.2.1",
+    "@stdlib/array-to-iterator": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/assert-is-iterator-like": "^0.2.2",
     "@stdlib/assert-is-number": "^0.2.2",
