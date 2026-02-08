@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-iter/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { itercugmean, itercuhmean, itercumax, itercumaxabs, itercumean, itercumeanabs, itercumeanabs2, itercumidrange, itercumin, itercuminabs, itercuprod, itercurange, itercusum, itercusumabs, itercusumabs2, itermax, itermaxabs, itermean, itermeanabs, itermeanabs2, itermidrange, itermin, iterminabs, itermmax, itermmaxabs, itermmean, itermmeanabs, itermmeanabs2, itermmidrange, itermmin, itermminabs, itermprod, itermrange, itermsum, itermsumabs, itermsumabs2, iterprod, iterrange, iterstdev, itersum, itersumabs, itersumabs2, itervariance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@v0.2.3-esm/index.mjs';
+import { itercugmean, itercuhmean, itercumax, itercumaxabs, itercumean, itercumeanabs, itercumeanabs2, itercumidrange, itercumin, itercuminabs, itercuprod, itercurange, itercusum, itercusumabs, itercusumabs2, itermax, itermaxabs, itermean, itermeanabs, itermeanabs2, itermidrange, itermin, iterminabs, itermmax, itermmaxabs, itermmean, itermmeanabs, itermmeanabs2, itermmidrange, itermmin, itermminabs, itermprod, itermrange, itermsum, itermsumabs, itermsumabs2, iterprod, iterrange, iterstdev, itersum, itersumabs, itersumabs2, itervariance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@esm/index.mjs';
 ```
 
 #### ns
@@ -131,7 +136,7 @@ var o = ns;
 <script type="module">
 
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@v0.2.3-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter@esm/index.mjs';
 
 console.log( getKeys( ns ) );
 
