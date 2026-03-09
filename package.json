@@ -36,7 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/stats-iter-cugmean": "^0.2.2",
+    "@stdlib/stats-iter-cugmean": "^0.2.3",
     "@stdlib/stats-iter-cuhmean": "^0.2.3",
     "@stdlib/stats-iter-cumax": "^0.2.3",
     "@stdlib/stats-iter-cumaxabs": "^0.2.3",
@@ -82,7 +82,7 @@
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-to-iterator": "^0.2.2",
+    "@stdlib/array-to-iterator": "^0.2.3",
     "@stdlib/assert-is-function": "^0.2.3",
     "@stdlib/assert-is-iterator-like": "^0.2.3",
     "@stdlib/assert-is-number": "^0.2.3",
@@ -91,8 +91,8 @@
     "@stdlib/iter-empty": "^0.2.3",
     "@stdlib/math-base-assert-is-nan": "^0.2.3",
     "@stdlib/math-base-special-abs": "^0.2.3",
-    "@stdlib/random-iter-randu": "^0.2.1",
-    "@stdlib/random-iter-uniform": "^0.2.1",
+    "@stdlib/random-iter-randu": "^0.2.2",
+    "@stdlib/random-iter-uniform": "^0.2.2",
     "@stdlib/stats-incr-gmean": "^0.2.3",
     "@stdlib/stats-incr-hmean": "^0.2.3",
     "@stdlib/stats-incr-max": "^0.2.3",
@@ -131,7 +131,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
