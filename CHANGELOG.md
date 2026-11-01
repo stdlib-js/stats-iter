@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-15)
+## Unreleased (2026-11-01)
 
 <section class="commits">
 
@@ -12,6 +12,9 @@
 
 <details>
 
+-   [`0bc0bc7`](https://github.com/stdlib-js/stdlib/commit/0bc0bc795f828b48792e5408632ba7d0b28709eb) - **test:** migrate `stats/iter/cumeanabs2` to ULP-based assertions [(#15937)](https://github.com/stdlib-js/stdlib/pull/15937) _(by Athan Reines)_
+-   [`692566a`](https://github.com/stdlib-js/stdlib/commit/692566a26ef1d7335b1733b4653f2aad4e9b3ef3) - **docs:** update examples [(#15677)](https://github.com/stdlib-js/stdlib/pull/15677) _(by Philipp Burckhardt)_
+-   [`20cbd4f`](https://github.com/stdlib-js/stdlib/commit/20cbd4f4a2fe779939f2c5bd5527aa37e6d87f99) - **test:** migrate `stats/iter/mmeanabs2` to ULP-based assertions [(#15440)](https://github.com/stdlib-js/stdlib/pull/15440) _(by Athan Reines)_
 -   [`44e1463`](https://github.com/stdlib-js/stdlib/commit/44e1463b1c3ddb5fae067d08bf5d28f76d8b6c92) - **docs:** fix descriptions [(#13615)](https://github.com/stdlib-js/stdlib/pull/13615) _(by Philipp Burckhardt)_
 -   [`8264796`](https://github.com/stdlib-js/stdlib/commit/8264796fb922e99f322d8140a5993ac9ba6fd200) - **docs:** update `stats/iter` TypeScript declarations [(#12614)](https://github.com/stdlib-js/stdlib/pull/12614) _(by stdlib-bot)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
